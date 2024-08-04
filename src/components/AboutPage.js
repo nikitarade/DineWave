@@ -16,7 +16,7 @@ const AboutPage = () => {
       </nav>
       <div className="about-content">
         <h1>About DineWave</h1>
-        <img src="/images/logo.png" alt="DineWave Logo" className="about-logo" />
+        <img src="/images/logo_dinewave.png" alt="DineWave Logo" className="about-logo" />
         <p className="description">DineWave is dedicated to providing the best dining experience.</p>
         <div className="mission-vision">
           <div className="mission">
@@ -28,7 +28,7 @@ const AboutPage = () => {
             <p>To be the leading provider of innovative restaurant management solutions worldwide.</p>
           </div>
         </div>
-        <img src="/images/illustration.png" alt="Illustration" className="about-image" />
+        <img src="/images/about.jpg" alt="Illustration" className="about-image" />
       </div>
     </div>
   );
