@@ -22,11 +22,11 @@ const LandingPage = () => {
           <p>We Design And Innovate!</p>
         </div>
         <div className="header-images">
-          <img src="/images/image1.jpg" alt="Food 1" />
-          <img src="/images/image2.jpg" alt="Food 2" />
-          <img src="/images/image3.jpg" alt="Food 3" />
-          <img src="/images/image4.jpg" alt="Food 4" />
-          <img src="/images/image5.jpg" alt="Food 5" />
+          <img src="/images/food1.jpg" alt="Food 1" />
+          <img src="/images/food2.jpg" alt="Food 2" />
+          <img src="/images/food3.jpg" alt="Food 3" />
+          <img src="/images/food4.jpg" alt="Food 4" />
+          <img src="/images/food5.jpg" alt="Food 5" />
         </div>
       </header>
       <footer className="footer">
