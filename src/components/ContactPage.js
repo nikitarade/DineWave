@@ -4,6 +4,17 @@ import './ContactPage.css';
 const ContactPage = () => {
   return (
     <div className="contact-page">
+      <header className="navbar">
+        <div className="logo">DinWave</div>
+        <ul className="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/menu">Menu</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <button className="login-button">login</button>
+        </ul>
+      </header>
+      <br></br>
       <header className="contact-header">
         <h1>Contact Us</h1>
         <p>We would love to hear from you! Please fill out the form below to get in touch.</p>

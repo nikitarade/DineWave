@@ -11,27 +11,53 @@ const AboutPage = () => {
           <li><a href="/about">About</a></li>
           <li><a href="/menu">Menu</a></li>
           <li><a href="/contact">Contact Us</a></li>
-          <button className="login-button">login</button>
+          <button className="login-button">Login</button>
         </ul>
       </header>
-      <div className="about-content">
-        <h1>About <span className="highlight">DineWave</span></h1>
-        <img className="sound-wave" src="/images/logo_dinewave.png" alt="Sound Wave" />
-        <p className="about-description">DineWave is dedicated to providing the best dining experience.</p>
-        <div className="content-wrapper">
-          <img className="about-image" src="/images/about.jpg" alt="Illustration" />
-          <div className="mission-vision">
-            <div className="mission">
-              <h2>Our Mission:</h2>
-              <p>We aim to revolutionize the dining industry by integrating advanced technology with exceptional culinary experiences.</p>
-            </div>
-            <div className="vision">
-              <h2>Our Vision:</h2>
-              <p>To be the leading provider of innovative restaurant management solutions worldwide.</p>
+
+      <div className='about-box'>
+        <div className="about-content">
+          <h1>About </h1> 
+          <div className="brand-container">
+          <h2 className="brand-name">DinWave</h2>
+          <img className="sound-wave" src="/images/logo_dinewave.png" alt="Sound Wave" />
+          </div>
+
+          
+          
+          <p className="about-description">DinWave is dedicated to providing the best dining experience.</p>
+          
+
+          <div className='robo-box'>
+            <div className="content-wrapper">
+              <img className="about-image" src="/images/about.jpg" alt="Illustration" />
+              <div className="mission-vision">
+                <div className="mission">
+                  <h2>Our Mission:</h2>
+                  <p>We aim to revolutionize the dining industry by integrating advanced technology with exceptional culinary experiences.</p>
+                </div>
+                <div className="vision">
+                  <h2>Our Vision:</h2>
+                  <p>To be the leading provider of innovative restaurant management solutions worldwide.</p>
+                </div>
+              </div>
             </div>
           </div>
+          <br></br>
+
+          <h2 className="automate">Automate | Productive | Efficiency | Innovate</h2>
+          
+        
         </div>
       </div>
+
+
+
+      <br></br>
+
+
+
+
       <div className="additional-content">
         <div className="tech-stack">
           <h2>Tech-Stack</h2>
