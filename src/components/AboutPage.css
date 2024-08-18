@@ -37,7 +37,7 @@
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 50px;
   margin-left: 20px; /* Space out from the last link */
 }
 
@@ -81,7 +81,7 @@
 .about-page {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #fdf8f8;
+  background-color: #ffffff;
 }
 
 .about-content {
@@ -165,8 +165,31 @@
 }
 
 
+.tech-stack{
+  text-align: center;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+.project-flow-box{
+  width: 1300px;
+  height: 700px;
+  margin: 30px auto;
+  padding: 10px;
+  max-width: auto;
+  background-color: #ffffff;
+  border: 1px solid #efe9e9;
+  border-radius: 30px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
 
 
+.project-flow{
+  text-align: center;
+  font-style: oblique;
+  font-weight: 500;
+  transform: translateY(350%);
+}
 
 
 /* Additional Content */
@@ -182,8 +205,9 @@
   margin-top: 40px;
 }
 
+
 .team {
-  background-color: #000;
+  background-color: #2a2e37;
   color: #fff;
   padding: 50px 0;
 }
@@ -208,9 +232,11 @@
   border-radius: 10px;
 }
 
+
+
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: #fff;
-  border-top: 1px solid #ccc;
+  padding: 30px;
+  background-color: #ffffff;
+  border-top: 2px solid #767575;
 }

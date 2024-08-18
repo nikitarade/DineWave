@@ -61,18 +61,40 @@ const AboutPage = () => {
       <div className="additional-content">
         <div className="tech-stack">
           <h2>Tech-Stack</h2>
-          <p>Web-Development | MERN | Computer-Vision | Deep Learning | Machine Learning | AI</p>
+          <h2 className="tech-stack">Web-Development | MERN | Computer-Vision | Deep Learning | Machine Learning | AI</h2>
         </div>
-        <div className="project-flow">
-          <h2>Project Flow</h2>
-          <p>call me when you make this part!</p>
+        <br></br>
+
+
+
+        <div className="project-flow-box">
+          <div className="project-flow">
+            <h2>Project Flow</h2>
+            <p>call me when you make this part!</p>
+          </div>
+
+
         </div>
+        <br></br>
+
+
+
+
         <div className="research-paper">
           <h2>Research Paper</h2>
           <p>Our Published Research Paper</p>
         </div>
+        <br></br><br></br>
+
+
+
+
+
+
+
         <div className="team">
           <h2>Meet the Visionaries Behind Us</h2>
+          
           <div className="team-members">
             <div className="team-member">
               <img src="/path/to/member1.png" alt="Member 1" />
@@ -89,7 +111,13 @@ const AboutPage = () => {
               <h3>SARA</h3>
               <p>Marketing Head</p>
             </div>
+            <div className="team-member">
+              <img src="/path/to/member4.png" alt="Member 4" />
+              <h3>Joe</h3>
+              <p>Cloud Head</p>
+            </div>
           </div>
+          
         </div>
       </div>
       <footer>
