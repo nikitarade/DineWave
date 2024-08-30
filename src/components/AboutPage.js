@@ -113,7 +113,7 @@ const AboutPage = () => {
             </div>
             <div className="team-member">
               <img src="/path/to/member4.png" alt="Member 4" />
-              <h3>Joe</h3>
+              <h3>JOE</h3>
               <p>Cloud Head</p>
             </div>
           </div>
